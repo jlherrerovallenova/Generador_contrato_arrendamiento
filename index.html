@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generador de Contratos de Alquiler</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif:wght@400;700&display=swap');
+      
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      
+      /* Print Styles for the Contract */
+      @media print {
+        @page { margin: 2cm; size: A4; }
+        body { -webkit-print-color-adjust: exact; }
+        .no-print { display: none !important; }
+        .print-only { display: block !important; }
+        .contract-document { 
+          box-shadow: none !important; 
+          border: none !important; 
+          padding: 0 !important;
+          margin: 0 !important;
+          width: 100% !important;
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.2/",
+    "react": "https://esm.sh/react@^19.2.2",
+    "lucide-react": "https://esm.sh/lucide-react@^0.560.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.2/"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-50 text-slate-900">
+    <div id="root"></div>
+  </body>
+</html>

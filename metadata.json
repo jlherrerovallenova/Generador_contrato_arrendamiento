@@ -1,0 +1,5 @@
+{
+  "name": "Generador de Contratos de Alquiler",
+  "description": "Aplicación para generar, validar y descargar contratos de arrendamiento con múltiples intervinientes y validación de datos legales (DNI, IBAN).",
+  "requestFramePermissions": []
+}
